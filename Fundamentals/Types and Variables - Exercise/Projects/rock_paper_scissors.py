@@ -12,7 +12,7 @@ print("Try to beat the computer.")
 while True:
     computer_choice_int = random.randint(1, 3)
     computer_choice = options[computer_choice_int - 1]
-    print(f"For testing purposes computer has chosen \"{computer_choice}\"")
+    #print(f"For testing purposes computer has chosen \"{computer_choice}\"")
     print("")
     print("Computer has chosen a stance. What is yours?")
     player_input = input("Enter [R]ock, [P]paper or [S]scissors: ")
