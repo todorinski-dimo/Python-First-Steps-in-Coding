@@ -1,1 +1,1 @@
-Homework from the @SoftUnu Python course
+Homeworks @ SoftUni Python Course
