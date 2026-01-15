@@ -28,7 +28,7 @@ else:
 
 random_number = random.randint(1, range_end)
 
-print(f"For testing purposes computer number is {random_number}.")
+#print(f"For testing purposes computer number is {random_number}.")
 
 while True:
     print("")
