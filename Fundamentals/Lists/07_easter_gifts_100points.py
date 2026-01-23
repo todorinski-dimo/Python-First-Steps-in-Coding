@@ -10,8 +10,6 @@ while True:
             if gifts_list[gift_pos] == cmd[1]:
                 gifts_list[gift_pos] = "None"
     elif cmd[0] == "Required":
-      
-#Fixed check for invalid input index. Check for negative values was missing.
         if 0 <= int(cmd[2]) < len(gifts_list):
             gifts_list[int(cmd[2])] = cmd[1]
     elif cmd[0] == "JustInCase":
