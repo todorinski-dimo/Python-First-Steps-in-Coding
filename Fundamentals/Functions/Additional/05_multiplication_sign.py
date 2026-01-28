@@ -1,10 +1,12 @@
 def is_zero(int_list: list) -> bool:
+    """takes a list of integers; returns True if it contains 0"""
     if 0 in int_list:
         return True
     return False
 
 
 def is_negative(int_list: list) -> bool:
+    """takes a list of integers; returns True if there are odd negative values(items) in list"""
     negatives = 0
     for item in int_list:
         if item < 0:
@@ -15,6 +17,8 @@ def is_negative(int_list: list) -> bool:
 
 
 def multiplication_sign(int_list: list) -> str:
+    """takes a list of integers; returns messages of what would be the sign of the result of multiplication of
+     all values (items) in the list"""
     if is_zero(int_list):
         return "zero"
     if is_negative(int_list):
