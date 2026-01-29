@@ -28,9 +28,9 @@ while True:
             courses_list.pop(a)
             b = courses_list.index(cmd[2])
             courses_list.insert(b + 1, f"{cmd[2]}-Exercise")
-    elif cmd[0] == "Exercise" and courses_list.count(cmd[1]):
+    elif cmd[0] == "Exercise" and courses_list.count(cmd[1]) and not courses_list.count(f"{cmd[1]}-Exercise"):
         courses_list.insert(courses_list.index(cmd[1]) + 1, f"{cmd[1]}-Exercise")
-    elif cmd[0] == "Exercise" and not courses_list.count(cmd[1]):
+    elif cmd[0] == "Exercise" and not courses_list.count(cmd[1]) and not courses_list.count(f"{cmd[1]}-Exercise"):
         courses_list.append(cmd[1])
         courses_list.append(f"{cmd[1]}-Exercise")
     cmd.clear()
