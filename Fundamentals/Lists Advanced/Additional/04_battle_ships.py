@@ -11,15 +11,21 @@ for i in range(len(hits)):
     for j in range(len(hits[i])):
         hits[i][j] = int(hits[i][j])
 
-for i in range(len(battlefield)):
-    print(battlefield[i])
-print(hits)
+sink_ships = 0
+
+# for i in range(len(battlefield)):
+#     print(battlefield[i])
+# print(hits)
 
 for i in range(len(hits)):
-    x = int(hits[i][0])
-    y = int(hits[i][1])
-    print(battlefield[x, y])
+    if battlefield[hits[i][0]][hits[i][1]] > 0:
+        battlefield[hits[i][0]][hits[i][1]] -= 1
+        if battlefield[hits[i][0]][hits[i][1]] == 0:
+            sink_ships += 1
 
-for i in range(len(battlefield)):
-    print(battlefield[i])
-print(hits)
+
+# for i in range(len(battlefield)):
+#     print(battlefield[i])
+# print(hits)
+
+print(sink_ships)
