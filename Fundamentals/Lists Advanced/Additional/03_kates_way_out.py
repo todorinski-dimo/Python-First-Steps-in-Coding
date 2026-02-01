@@ -61,10 +61,8 @@ def player_moves(mz_2d: list, plr: list, ext: list) -> str:
     for h in range(len(ext)):
         if mz_2d[ext[h][0]][ext[h][1]] != " " and mz_2d[ext[h][0]][ext[h][1]] != "#":
             exit_moves.append(mz_2d[ext[h][0]][ext[h][1]])
-
     if len(exit_moves) == 0:
         return "Kate cannot get out"
-
     move = max(exit_moves)
     return f"Kate got out in {move + 2} moves"
 
