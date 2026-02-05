@@ -35,21 +35,46 @@
 # =
 # seq_unique_result = [item_a for item_a in seq_a if any((item_a in item_b) for item_b in seq_b)]
 
-numbers = [1, 2, 3, 4, 5, 6]
-squares = [item ** 2 for item in numbers]
-print(squares)
-squares_odd = [item ** 2 for item in numbers if item % 2 == 1]
-print(squares_odd)
-squares_even_and_others = [item ** 2 if item % 2 == 0 else item ** 0.5 for item in numbers]
-print(squares_even_and_others)
+# numbers = [1, 2, 3, 4, 5, 6]
+# squares = [item ** 2 for item in numbers]
+# print(squares)
+# squares_odd = [item ** 2 for item in numbers if item % 2 == 1]
+# print(squares_odd)
+# squares_even_and_others = [item ** 2 if item % 2 == 0 else item ** 0.5 for item in numbers]
+# print(squares_even_and_others)
+#
+# numbers.append([3, 4, 5])
+# print(numbers)
+# numbers.extend([3, 4, 5])
+# print(numbers)
+# numbers += [3, 4, 5]
+# print(numbers)
+# numbers.pop(6)
+# # numbers_new = [int(item) for item in input().split()]
+# even_indices = [idx for idx in range(len(numbers)) if numbers[idx] % 2 == 0]
+# print(even_indices)
 
-numbers.append([3, 4, 5])
-print(numbers)
-numbers.extend([3, 4, 5])
-print(numbers)
-numbers += [3, 4, 5]
-print(numbers)
-numbers.pop(6)
-# numbers_new = [int(item) for item in input().split()]
-even_indices = [idx for idx in range(len(numbers)) if numbers[idx] % 2 == 0]
-print(even_indices)
+numbers = [1, 2, 3, 4, 5, 6]
+numbers1 = numbers[0:]
+print(numbers1)
+
+numbers2 = numbers[:0]
+print(numbers2)
+
+numbers3 = numbers[8:]
+print(numbers3)
+
+numbers4 = numbers[:8]
+print(numbers4)
+
+numbers5 = numbers[1:]
+print(numbers5)
+
+numbers6 = numbers[:1]
+print(numbers6)
+
+numbers7 = numbers[5:]
+print(numbers7)
+
+numbers8 = numbers[:5]
+print(numbers8)

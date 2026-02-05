@@ -14,7 +14,7 @@ while True:
             if cmd[item] not in treasure_chest:
                 treasure_chest.insert(0, cmd[item])
     if cmd[0] == "Drop":
-        if 0 < int(cmd[1]) < len(treasure_chest):
+        if 0 <= int(cmd[1]) < len(treasure_chest):
             treasure_chest.append(treasure_chest[int(cmd[1])])
             treasure_chest.pop(int(cmd[1]))
     if cmd[0] == "Steal":
