@@ -1,4 +1,5 @@
-# https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice
+# https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice#1
+# score 80
 
 from math import ceil
 

@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/01-programming-fundamentals-mid-exam-retake/2517/practice#2
+# score 100
+
 waiting_people = int(input())
 lift_status = [int(item) for item in input().split()]
 

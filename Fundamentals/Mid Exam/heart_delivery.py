@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/04-programming-fundamentals-mid-exam/2031/practice#3
+# score 100
+
 needed_love = [int(item) for item in input().split("@")]
 pos = 0
 need_love = 0

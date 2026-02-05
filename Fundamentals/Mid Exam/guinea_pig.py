@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/04-programming-fundamentals-mid-exam/2031/practice#1
+# score 100
+
 food = float(input())*1000
 hay = float(input())*1000
 cover = float(input())*1000

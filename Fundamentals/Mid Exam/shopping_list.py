@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/04-programming-fundamentals-mid-exam/2031/practice#2
+# score 100
+
 shop_list = input().split("!")
 
 while True:

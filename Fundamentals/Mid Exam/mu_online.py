@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/05-programming-fundamentals-mid-exam/2028/practice#2
+# score 100
+
 health = 100
 coins = 0
 killed = False

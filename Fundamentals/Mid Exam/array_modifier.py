@@ -1,4 +1,5 @@
-# https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice
+# https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice#2
+# score 100
 
 array_of_ints = [int(item) for item in input().split()]
 

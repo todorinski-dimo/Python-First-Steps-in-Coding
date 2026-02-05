@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/03-programming-fundamentals-mid-exam-retake/2305/practice#1
+# score 100
+
 energy = int(input())
 wins = 0
 

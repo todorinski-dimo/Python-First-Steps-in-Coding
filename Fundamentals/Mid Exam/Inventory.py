@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/05-programming-fundamentals-mid-exam/2028/practice#3
+# score 100
+
 inventory = [item for item in input().split(", ")]
 combine = []
 while True:

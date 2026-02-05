@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/03-programming-fundamentals-mid-exam-retake/2305/practice#3
+# score 100
+
 targets = [int(item) for item in input().split()]
 idx = 0
 power = 0

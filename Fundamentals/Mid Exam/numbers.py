@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice#3
+# score 100
+
 sequence = [int(item) for item in input().split()]
 average_value = sum(sequence) / len(sequence)
 new_sequence = list(filter(lambda item: item > average_value, sequence))

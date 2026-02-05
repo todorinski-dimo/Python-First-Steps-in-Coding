@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/01-programming-fundamentals-mid-exam-retake/2517/practice#1
+# score 100
+
 order_value = 0
 tax = 0.2
 discounted = 0.9

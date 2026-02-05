@@ -1,3 +1,6 @@
+# https://alpha.judge.softuni.org/contests/01-programming-fundamentals-mid-exam-retake/2517/practice#3
+# score 100
+
 seq_elements = input().split()
 seq_elements_len = len(seq_elements)
 moves = 0

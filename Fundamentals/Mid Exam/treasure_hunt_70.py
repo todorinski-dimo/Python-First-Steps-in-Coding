@@ -1,4 +1,5 @@
-# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice
+# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice#2
+# score 70
 
 treasure_chest = input().split("|")
 stolen = []

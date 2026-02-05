@@ -1,4 +1,5 @@
-# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice
+# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice#1
+# score 100
 
 days_for_plunder = int(input())
 daily_plunder = int(input())

@@ -1,4 +1,5 @@
-# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice
+# https://alpha.judge.softuni.org/contests/06-programming-fundamentals-mid-exam-retake/1773/practice#3
+# score 80
 
 pirate_status = [int(item) for item in input().split(">")]
 man_o_war_status = [int(item) for item in input().split(">")]
