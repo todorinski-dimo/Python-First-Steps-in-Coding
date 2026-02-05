@@ -1,5 +1,5 @@
 # https://alpha.judge.softuni.org/contests/02-programming-fundamentals-mid-exam/2474/practice#1
-# score 90
+# score 10
 
 emplo_1_st_hour = int(input())
 emplo_2_st_hour = int(input())
@@ -13,8 +13,9 @@ not_done = True
 emplo_all_st_hour = emplo_1_st_hour + emplo_2_st_hour + emplo_3_st_hour
 
 while not_done:
-    done_st += emplo_all_st_hour
-    hours_worked += 1
+    if st_number > 0:
+        done_st += emplo_all_st_hour
+        hours_worked += 1
     if done_st >= st_number:
         not_done = False
         break
