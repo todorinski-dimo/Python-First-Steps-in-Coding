@@ -12,7 +12,12 @@ emplo_all_st_hour = emplo_1_st_hour + emplo_2_st_hour + emplo_3_st_hour
 # print(emplo_all_st_hour)
 working_time_needed = ceil(st_number / emplo_all_st_hour)
 # print(working_time_needed)
-rest_needed = working_time_needed // 3
+if st_number == 0:
+    rest_needed = 0
+elif working_time_needed % 3 > 0:
+    rest_needed = working_time_needed // 3
+else:
+    rest_needed = (working_time_needed // 3) - 1
 # print(rest_needed)
 total = working_time_needed + rest_needed
 # print(total)
