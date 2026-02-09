@@ -1,7 +1,6 @@
 class Catalogue:
-
-    def __init__(self, catalogue_name: str):
-        self.catalogue_name = catalogue_name
+    def __init__(self, name: str):
+        self.name = name
         self.products = []
 
     def add_product(self, product_name: str):
@@ -17,7 +16,7 @@ class Catalogue:
 
     def __repr__(self):
         self.products.sort()
-        return f"Items in the {self.catalogue_name} catalogue:\n{'\n'.join(self.products)}"
+        return f"Items in the {self.name} catalogue:\n{'\n'.join(self.products)}"
 
 
 catalogue = Catalogue("Furniture")

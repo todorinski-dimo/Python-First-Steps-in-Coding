@@ -10,6 +10,9 @@ class Weapon:
         else:
             return f"no bullets left"
 
+    def relaod(self):
+        self.bullets = 30
+
     def __repr__(self):
         return f"Remaining bullets: {self.bullets}"
 
