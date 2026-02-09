@@ -8,7 +8,7 @@ class Class:
         self.grades = []
 
     def add_student(self, name: str, grade: float):
-        if len(self.students) < self.__students_count:
+        if len(self.students) < Class.__students_count:
             self.students.append(name)
             self.grades.append(grade)
 
