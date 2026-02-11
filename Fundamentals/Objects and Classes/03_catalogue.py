@@ -16,8 +16,8 @@ class Catalogue:
         return return_list
 
     def __repr__(self):
-        self.products.sort()
-        return f"Items in the {self.name} catalogue:\n{'\n'.join(self.products)}"
+        return_string = f"Items in the {self.name} catalogue:\n"
+        return return_string + '\n'.join(sorted(self.products))
 
 
 catalogue = Catalogue("Furniture")
