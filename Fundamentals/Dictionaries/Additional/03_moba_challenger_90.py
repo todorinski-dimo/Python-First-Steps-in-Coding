@@ -39,15 +39,11 @@ while True:
                         if player_skills_total[player1] > player_skills_total[player2]:
                             del player_skills[player2]
                             del player_skills_total[player2]
-                            deleted_player = True
-                        elif player_skills_total[player1] < player_skills_total[player2]:
+                        else:
                             del player_skills[player1]
                             del player_skills_total[player1]
-                            deleted_player = True
                         # print(player_skills)
                         # print(player_skills_total)
-
-
 
 player_skills_total = {player:points for player, points in
                        sorted(player_skills_total.items(), key=lambda item: -item[1])}
