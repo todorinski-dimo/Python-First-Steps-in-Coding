@@ -15,10 +15,12 @@ for item in tickets:
             find_chars = ch * multy
             left_ticket = item[0:10]
             right_ticket = item[10:20]
-            if left_ticket.find(find_chars) > -1 and right_ticket.find(find_chars) > -1 and len(find_chars) == 10 and not match:
+            if (left_ticket.find(find_chars) > -1 and right_ticket.find(find_chars) > -1 and len(find_chars) == 10
+                    and not match):
                 match = True
                 print(f'ticket "{item}" - {len(find_chars)}{ch} Jackpot!')
-            elif left_ticket.find(find_chars) > -1 and right_ticket.find(find_chars) > -1 and 6 <= len(find_chars) <= 9 and not match:
+            elif (left_ticket.find(find_chars) > -1 and right_ticket.find(find_chars) > -1 and 6 <= len(find_chars) <= 9
+                  and not match):
                 match = True
                 print(f'ticket "{item}" - {len(find_chars)}{ch}')
     if not match:
