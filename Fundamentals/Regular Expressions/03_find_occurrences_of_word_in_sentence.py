@@ -1,0 +1,8 @@
+import re
+
+sentence = input()
+word = input()
+
+regex = fr"\b{word}\b"
+result = re.findall(regex, sentence, re.IGNORECASE)
+print(len(result))
