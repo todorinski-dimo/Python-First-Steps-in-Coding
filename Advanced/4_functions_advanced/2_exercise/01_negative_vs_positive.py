@@ -1,6 +1,8 @@
 def negative_vs_positive(int_list):
     sum_negative = 0
+#    sum_negative = sum([item for item in int_list if item < 0])
     sum_positive = 0
+#    sum_negative = sum([item for item in int_list if item > 0])
     for item in int_list:
         if item < 0:
             sum_negative += item

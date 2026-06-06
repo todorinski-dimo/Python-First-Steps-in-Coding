@@ -1,5 +1,4 @@
-clothes = input().split()
-clothes = [int(item) for item in clothes]
+clothes = [int(item) for item in input().split()]
 rack_capacity = int(input())
 racks = 0
 buffer = 0
