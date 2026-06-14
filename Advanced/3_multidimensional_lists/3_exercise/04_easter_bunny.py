@@ -1,0 +1,42 @@
+n = int(input())
+
+matrix = []
+bunny = []
+max_eggs = -float("inf")
+max_direction = ""
+max_positions = []
+for row in range(n):
+    matrix.append(input().split())
+    for col in range(n):
+        if matrix[row][col] == "B":
+            bunny = [row, col]
+
+possible_moves = {
+    "down": (1, 0),
+    "right": (0, 1),
+    "up": (-1, 0),
+    "left": (0, -1),
+}
+
+for direction, moves in possible_moves.items():
+    eggs = 0
+    current_pos = []
+    row = bunny[0] + moves[0]
+    col = bunny[1] + moves[1]
+
+    while 0 <= row < n and 0 <= col < n:
+        if matrix[row][col] == "X":
+            break
+        eggs += int(matrix[row][col])
+        current_pos.append([row, col])
+        row += moves[0]
+        col += moves[1]
+
+    if eggs > max_eggs and current_pos:
+        max_eggs = eggs
+        max_direction = direction
+        max_positions = current_pos
+
+print(max_direction)
+[print(row) for row in max_positions]
+print(max_eggs)
