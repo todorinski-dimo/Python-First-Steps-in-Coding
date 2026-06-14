@@ -1,0 +1,23 @@
+..html
+- - - test.html
+..pptx
+- - - demo.pptx
+..py
+- - - _abs_path.py
+- - - _logs_input.py
+- - - ex_four_directory_traversal.py
+- - - ex_four_directory_traversal_alldir.py
+- - - ex_one_even_files.py
+- - - ex_three_file_manipulator.py
+- - - ex_two_line_numbers.py
+..pyc
+- - - _abs_path.cpython-310.pyc
+- - - _logs_input.cpython-310.pyc
+..txt
+- - - _logs_exercises.txt
+- - - file.txt
+- - - output.txt
+- - - output.txt
+- - - report.txt
+- - - text.txt
+- - - text.txt
