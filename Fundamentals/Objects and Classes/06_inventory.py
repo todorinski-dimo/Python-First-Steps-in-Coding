@@ -7,6 +7,7 @@ class Inventory:
     def add_item(self, item: str):
         if len(self.items) < self.__capacity:
             self.items.append(item)
+            return f"Item added: {item}"
         else:
             return f"not enough room in the inventory"
 
